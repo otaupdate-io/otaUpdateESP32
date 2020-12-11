@@ -41,10 +41,18 @@
 `NOTE: Don't forget to change the version number in your program as you update.`
 
 #### Process 1 for initial update(V 0.9)
-`Sign up on [OtaUpdate.io](https://otaupdate.io/register)`<br>
+`Sign up on [OtaUpdate.io](https://otaupdate.io/register)`
 
-![alt text](https://i.ibb.co/D5zGg10/Screenshot-2020-12-11-at-10-36-21-PM.png)
+![alt text](https://i.imgur.com/SHaG7pE.png)
 
+`Adding a device in [OtaUpdate.io](https://otaupdate.io/home)`
+
+![alt text](https://i.ibb.co/Qm8DTyv/Screenshot-2020-12-11-at-11-38-36-PM.png)
+![alt text](https://i.ibb.co/VjpRnbS/Screenshot-2020-12-11-at-11-44-53-PM.png)
+
+`Copy the device Token that is Generated.`
+
+![alt text](https://i.ibb.co/hWnbS0m/Screenshot-2020-12-11-at-11-49-27-PM.png)
 
 
 - first time
