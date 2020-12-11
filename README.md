@@ -42,8 +42,10 @@
 
 #### Process 1 for initial update(V 0.9)
 `Sign up on [OtaUpdate.io](https://otaupdate.io/register)`<br>
-![alt text](https://ibb.co/D5zGg10)
-more text with two line breaks between.
+
+![alt text](https://i.ibb.co/D5zGg10/Screenshot-2020-12-11-at-10-36-21-PM.png)
+
+
 
 - first time
 - second time
