@@ -2,7 +2,7 @@
 #include"otaUpdate.h"
 
 
-String currentVersion = "0.8";
+String currentVersion = "0.9";
 String Token = "YourToken";
 
 const char* ssid = "Wifiname";

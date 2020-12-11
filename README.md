@@ -9,7 +9,8 @@
 - Sign up on [OtaUpdate.io](https://otaupdate.io/register)
 - Adding a device in [OtaUpdate.io](https://otaupdate.io/home)
 - Copy the device Token that is Generated.
-- Start Arduino IDE download the OtaUpdate.io-Esp32 library zip file.
+- Download the [OtaUpdate.io-Esp32](https://github.com/artiwiztechnologies/OtaUpdate.io-Esp32/archive/master.zip) library zip file.
+- Start Arduino IDE.
 - Add the zip file to Arduino IDE.
 - Open otaUpdate-Esp32 from the examples.
 - Paste the device token Generated in [OtaUpdate.io](https://otaupdate.io/home)
@@ -40,7 +41,7 @@
 
 `NOTE: Don't forget to change the version number in your program as you update.`
 
-#### Process 1 for initial update(V 0.9)
+## Process 1 for initial update(V 0.9)
 `Sign up on [OtaUpdate.io](https://otaupdate.io/register)`
 
 ![alt text](https://i.imgur.com/SHaG7pE.png)
@@ -54,32 +55,28 @@
 
 ![alt text](https://i.ibb.co/hWnbS0m/Screenshot-2020-12-11-at-11-49-27-PM.png)
 
+`Add the zip file to Arduino IDE.`
 
-- first time
-- second time
-- third time
-  - indented
-    1. inner number
+![alt text](https://i.ibb.co/0sjS7Ym/Screenshot-2020-12-12-at-12-02-22-AM.png)
 
-[this is the description](http://www.github.com)
+`Open otaUpdate-Esp32 from the examples.`
 
-This paragraph has some `variable` inline code.
+![alt text](https://i.ibb.co/YQrcsM3/Screenshot-2020-12-12-at-12-07-26-AM.png)
 
-```html
-<p>A paragraph example</p>
-```
-```javascript
-let num = Math.random();
-```
+`Paste the device token Generated in` [OtaUpdate.io](https://otaupdate.io/home)
 
-![alt text](http://picsum.photos/200/200)
+![alt text](https://i.ibb.co/F67THWZ/Screenshot-2020-12-12-at-12-14-32-AM.png)
 
-Some paragraph with text.
-> blockquote text below the paragraph
+`Configure Your wifi credentials.`
 
-| heading | header | head |
-| --- | --- | --- |
-| content | more content | text |
-| more | more | more |
+![alt text](https://i.ibb.co/wh4yFyY/Screenshot-2020-12-12-at-12-16-52-AM.png)
 
-This is being * created * on a ** Friday ** ~~Saturday~~.
+`Change the firmware version as per your firmware updates. By default it is in Version 0.9.`
+
+![alt text](https://i.ibb.co/zxr8Qfk/Screenshot-2020-12-12-at-12-19-02-AM.png)
+
+`Upload the program to your Esp32.`
+
+![alt text](https://i.ibb.co/n7C61W9/Screenshot-2020-12-12-at-12-20-28-AM.png)
+
+## Process 2 for initial update(V 1.0)
