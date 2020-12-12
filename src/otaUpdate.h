@@ -14,7 +14,7 @@ public:
 // int updates(String devUpdateApi);
 // int autoUpdate(String devAutoapi);
 otaUpdate(bool UpdateAvailable = false);
-int updates(String currentVersion,String token);
+int updates(float currentVersion,String token);
 void startUpdate(String url);
 
 };

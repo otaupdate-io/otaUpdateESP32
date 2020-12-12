@@ -13,7 +13,7 @@ otaUpdate::otaUpdate(bool UpdateAvailable)
 Serial.println("Auto Update mode enabled!!");
 }
 
-int otaUpdate::updates(String currentVersion,String token)
+int otaUpdate::updates(float currentVersion,String token)
 {
 http.begin(apiUrl+token);
 int httpCode = http.GET();
@@ -24,7 +24,7 @@ Serial.println(payloadOne);
 
 
 const size_t capacity = JSON_ARRAY_SIZE(1) + JSON_OBJECT_SIZE(4) + 160;
-DynamicJsonDocument doc(capacity);
+DynamicJsonDocument doc(256);
 
 deserializeJson(doc, payloadOne);
 
@@ -34,7 +34,7 @@ Serial.println(root_0_DeviceID);
 const char* root_0_UpdateStatus = root_0["UpdateStatus"]; // "Live"
 Serial.print("UpdateStatus : ");
 Serial.println(root_0_UpdateStatus);
-const char* root_0_firmwareVersion = root_0["firmwareVersion"]; // "1.1"
+float root_0_firmwareVersion = root_0["firmwareVersion"]; // 0.9
 Serial.print("firmwareVersion : ");
 Serial.println(root_0_firmwareVersion);
 const char* root_0_fileurl = root_0["fileurl"];
@@ -43,10 +43,11 @@ String DeviceID = String(root_0_DeviceID);
 String UpdateStatus = String(root_0_UpdateStatus);
 String latestVersion = String(root_0_firmwareVersion);
 String FileURL = String(root_0_fileurl);
-
+float versionfl = latestVersion.toFloat();
 http.end();
-
-if(currentVersion != latestVersion && DeviceStatus == UpdateStatus)
+Serial.println("super");
+Serial.println(latestVersion);
+if(currentVersion != versionfl && DeviceStatus == UpdateStatus)
 {
 Serial.println("Update Available");
 FileP=FileURL;
