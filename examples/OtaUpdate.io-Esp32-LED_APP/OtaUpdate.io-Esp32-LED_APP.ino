@@ -1,9 +1,9 @@
 #include <WiFi.h>
-#include"otaUpdate.h"
+#include<otaUpdate.h>
 
 int led = 13;
 
-String currentVersion = "1.0";
+float currentVersion = 1.0;
 String Token = "YourToken";
 
 const char* ssid = "Wifiname";
