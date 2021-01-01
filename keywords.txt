@@ -15,3 +15,5 @@ otaUpdate	KEYWORD1
 begin KEYWORD2
 updates KEYWORD2
 startUpdate KEYWORD2
+
+getrandom KEYWORD2

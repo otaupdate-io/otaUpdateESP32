@@ -1,15 +1,14 @@
 #include <WiFi.h>
+
 #include<otaUpdate.h>
-
-int led = 13;
-
 float currentVersion = 1.0;
 String Token = "YourToken";
+otaUpdate devUpdt(true);
 
 const char* ssid = "Wifiname";
 const char* password = "Password";
+int led = 13;
 
-otaUpdate devUpdt(true);
 
 void setup() {
 
